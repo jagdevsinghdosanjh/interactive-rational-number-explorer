@@ -31,7 +31,7 @@ def plot_rationals(rationals, a, b):
     st.pyplot(fig)
 
 def main():
-    st.title("📊 Rational Number Explorer")
+    st.title("📊 Rational Number Explorer - https://www.dosanjhpubsasr.org")
 
     col1, col2 = st.columns(2)
     with col1:
@@ -45,7 +45,7 @@ def main():
 
     a = Fraction(num1, den1)
     b = Fraction(num2, den2)
-    st.write(f"Exploring rational numbers between `{a}` and `{b}`")
+    st.write(f"Exploring rational numbers between `{a}` and `{b}` - By Jagdev Singh Dosanjh")
 
     rationals = generate_rationals_between(a, b, max_denom)
     plot_rationals(rationals, a, b)
