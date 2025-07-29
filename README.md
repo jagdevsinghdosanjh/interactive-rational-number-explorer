@@ -2,6 +2,8 @@
 
 An interactive educational tool built with **Streamlit** to visualize rational numbers between two user-defined fractions. This project helps students and educators explore the density and distribution of rational numbers on a number line.
 
+![alt text](Interactive-Rational-Number-Explorer.png)
+
 ## 🔍 Features
 
 - Input custom bounds using fractions (`a`, `b`)
